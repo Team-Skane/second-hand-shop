@@ -1,0 +1,4 @@
+[build]
+    base="second-hand-shop"
+    command="npm run build"
+    publish="second-hand-shop/build"
