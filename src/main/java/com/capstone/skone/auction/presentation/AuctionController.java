@@ -177,9 +177,7 @@ public class AuctionController {
         arr.add(bidInfo);
         auctionService.createBidInfo(bidInfo);
 
-
-
-        return "redirect:/";
+        return "redirect:/auctions";
     }
 
     @PostMapping("/auctions/del")
@@ -206,7 +204,6 @@ public class AuctionController {
         }
         System.out.println("-----작성자가 아닙니다.-----");
 
-        return "redirect:/";
+        return "redirect:/auctions";
     }
-
 }
